@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.botao{
+    border: 0;
+    background-color: #211ebec7;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+    color: #000000;
+}
+
+.botao:hover{
+    color: #4ea846;
+    transition: linear 0.3s ;
+}
+
+.botao:active{
+    background-color: #0400f7c7;
+}
+
+.textoFrase{
+    font-style: italic;
+    color: #4ea846;
+    text-align: center;
+    border-radius: 4px;
+}
